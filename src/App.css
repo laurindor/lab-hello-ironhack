@@ -1,11 +1,51 @@
 html, body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  app 
+  margin: 20px;
+  padding: 0px;
+}
 
-  nav {
-    display: flex;
-    justify-content: space-between;
-  }
+.App {
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 40px 80px 40px;
+  background: hsl(216, 26%, 24%);
+  color: white;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.title{
+
+  font-size:70px;
+  font-weight: 800px;
+}
+
+
+.title p {
+  font-size: 20px;
+  font-weight: 50px;
+  max-width: 200px;
+  margin-top: -100px;
+  margin-bottom: 10px;
+}
+
+
+button {
+  color:  hsl(216, 26%, 24%);
+  background-color: white;
+  border:none; 
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 500px;
+
+}
+
+.logoBck {
+  padding: 20px 20px;
+ 
+}
+
+
